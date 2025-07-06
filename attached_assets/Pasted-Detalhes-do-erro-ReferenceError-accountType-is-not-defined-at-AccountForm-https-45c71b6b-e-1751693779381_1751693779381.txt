@@ -1,0 +1,41 @@
+Detalhes do erro
+ReferenceError: accountType is not defined
+    at AccountForm (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/src/components/financial/account-form.tsx:39:39)
+    at div
+    at div
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-AXMZZQ2X.js?v=19837812:42:13
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-C7SZJ2M3.js?v=19837812:61:7
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-2K77HOHX.js?v=19837812:79:13
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-2K77HOHX.js?v=19837812:56:13
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-AXMZZQ2X.js?v=19837812:42:13
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DUCXC5SA.js?v=19837812:29:5
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-KTSEXZKA.js?v=19837812:233:13
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-KTSEXZKA.js?v=19837812:156:58
+    at Presence (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-E4UC4BFD.js?v=19837812:24:11)
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-KTSEXZKA.js?v=19837812:147:64
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-2K77HOHX.js?v=19837812:79:13
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-2K77HOHX.js?v=19837812:56:13
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-AXMZZQ2X.js?v=19837812:42:13
+    at https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-C7SZJ2M3.js?v=19837812:260:22
+    at Presence (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-E4UC4BFD.js?v=19837812:24:11)
+    at Provider (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-OXZDJRWN.js?v=19837812:38:15)
+    at DialogPortal (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-KTSEXZKA.js?v=19837812:109:11)
+    at _c3 (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/src/components/ui/dialog.tsx:52:12)
+    at Provider (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-OXZDJRWN.js?v=19837812:38:15)
+    at Dialog (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-KTSEXZKA.js?v=19837812:50:5)
+    at div
+    at Accounts (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/src/pages/accounts.tsx:35:43)
+    at Route (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=19837812:323:16)
+    at Switch (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=19837812:379:17)
+    at main
+    at div
+    at div
+    at AuthenticatedApp (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/src/App.tsx?v=Mi5Qi6wCsVf0PGcjmwIAx:47:45)
+    at Route (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=19837812:323:16)
+    at Switch (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=19837812:379:17)
+    at Router (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/src/App.tsx?v=Mi5Qi6wCsVf0PGcjmwIAx:182:42)
+    at Provider (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-OXZDJRWN.js?v=19837812:38:15)
+    at TooltipProvider (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=19837812:62:5)
+    at QueryClientProvider (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=19837812:2805:3)
+    at ErrorBoundary (https://45c71b6b-e4db-43cc-a514-dc51ccb86a49-00-30drvmdsrc1y8.kirk.replit.dev/src/components/error-boundary.tsx:10:5)
+    at App

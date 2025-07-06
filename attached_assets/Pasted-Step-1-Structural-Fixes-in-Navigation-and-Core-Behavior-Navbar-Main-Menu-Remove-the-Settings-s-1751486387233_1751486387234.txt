@@ -1,0 +1,55 @@
+Step 1: Structural Fixes in Navigation and Core Behavior
+Navbar/Main Menu:
+Remove the "Settings" section from the side navbar.
+Consolidate all sidebar options under "Main Menu."
+
+Notifications & Alerts:
+Rename all instances of "Alerts" to "Notifications" throughout the system.
+Synchronize notification badges (correct count of unread) in the dashboard/header.
+Fix: Marking a notification as read must persist (notification remains read even after page refresh).
+Ensure the notifications button in the header accurately reflects the real-time status of messages.
+
+Step 2: Advanced Data Generation
+Data Generator:
+Extend data generator to create monthly incomes (up to the current month).
+Generate monthly expenses per account/card.
+For credit cards: assign realistic limits, invoice values, installments (parcelamentos), recurring/fixed payments, and credit purchases.
+Prevent negative values in incomes/balances (only allow negatives for expenses/spending).
+Generate sample cases for overdue, due soon, and future due invoices.
+Ensure all relevant credit card data fields are complete and consistent.
+
+Step 3: Filters and Search Functionality
+Accounts & Cards Page:
+Implement fully functional, independent filter systems for bank accounts and credit cards.
+Add an "Apply Filters" button for each module.
+
+Income & Expenses Page:
+Convert all search bars to use dynamic autocomplete (live search based on available data).
+
+Step 4: UX/UI and User Feedback
+Toasts & Notifications:
+All system echo/log/print messages and confirmations should display via the Toast Notify system, never via browser alerts.
+
+Global Scrollbar:
+Implement a stylish, custom global scrollbar consistent with the app’s visual identity.
+
+Step 5: Tables and Data Organization
+Pagination & Column Management:
+Add pagination to all system tables.
+Provide options in all tables for users to configure visible columns and column order (show/hide and reorder).
+
+Step 6: Invoice Functionality Enhancements
+Invoices Page:
+Enable "view details" functionality on the lucide-eye buttons.
+Remove the download button next to the view button.
+Implement the "analysis" button functionality (next to the view icon).
+Step 7: Category Visual and Functional Improvements
+Categories Page:
+Enhance the category visuals: use custom icons (Font Awesome or more complete library).
+Provide a broad selection of icons for category creation/editing dialogs.
+Add support for subcategories.
+Add options for expense types: fixed, variable, recurring, etc.
+Step 8: Mobile Responsiveness and Fixes
+Mobile-first & Responsiveness:
+Fix any visible issues with responsiveness, especially in tables (e.g., invoice tables with "All", "Overdue", "Due Soon" tabs).
+Review and fix similar problems on other pages and modules.

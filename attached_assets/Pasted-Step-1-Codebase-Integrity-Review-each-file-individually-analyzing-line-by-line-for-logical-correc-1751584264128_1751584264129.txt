@@ -1,0 +1,55 @@
+Step 1: Codebase Integrity
+
+Review each file individually, analyzing line-by-line for logical correctness, syntactic accuracy, and adherence to best practices.
+
+Validate imports and module dependencies, ensuring all dependencies are installed and correctly versioned.
+
+Check for unused variables, functions, or redundant code and flag them explicitly.
+
+Step 2: Functional Validation
+
+Validate every function separately, ensuring all inputs produce expected outputs and handle edge cases appropriately.
+
+Ensure robust error handling is implemented across the entire application with meaningful error messages.
+
+Verify that APIs, database connections, and external services are reliably integrated and respond correctly.
+
+Step 3: User Interface and User Experience
+
+Thoroughly test the UI/UX across different devices and screen sizes, confirming responsive design.
+
+Ensure all interactive elements (buttons, forms, dropdowns, modals, etc.) function perfectly and provide immediate, correct feedback.
+
+Check navigation flows for logical consistency, intuitive paths, and absence of dead ends or broken links.
+
+Step 4: Performance and Optimization
+
+Validate the application's loading and response times, noting any delays or inefficiencies.
+
+Ensure optimized database queries, efficient looping structures, and minimized resource usage.
+
+Check for memory leaks or performance bottlenecks and document precisely where issues occur.
+
+Step 5: Security and Compliance
+
+Conduct security checks to verify protection against common vulnerabilities (XSS, CSRF, SQL Injection, Authentication Bypasses).
+
+Validate user input sanitization rigorously across all input fields.
+
+Confirm proper management of sensitive data, ensuring encryption where necessary and secure storage.
+
+Step 6: Documentation and Maintainability
+
+Review comments and documentation within the code for clarity, accuracy, and comprehensiveness.
+
+Identify and recommend necessary improvements or additional documentation needed for future maintainability.
+
+Ensure README files or equivalent documentation provide clear, step-by-step setup and deployment instructions.
+
+Step 7: Environment and Deployment
+
+Verify that the application’s deployment environment on Replit is correctly configured.
+
+Test deployment scripts, environment variables, and configuration files thoroughly.
+
+Document detailed steps required for reproducible builds and deployments.

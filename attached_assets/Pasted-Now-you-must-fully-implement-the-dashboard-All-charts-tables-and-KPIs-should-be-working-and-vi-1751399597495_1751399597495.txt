@@ -1,0 +1,23 @@
+Now you must fully implement the dashboard:
+
+All charts, tables, and KPIs should be working and visually consistent.
+Develop and integrate an advanced filtering system, allowing users to filter data contextually on each page — the filters should adapt according to the section being viewed.
+Display all selected filters as visible tags/chips for easy management and removal.
+Improve the layout for managing bank accounts and credit cards.
+Separate the content: make distinct sections for account management (Contas bancárias) and for credit cards (Cartões de crédito). These should not share the same panel; each should have its own interface, design, and navigation.
+Upgrade the credit card visualization: cards should be visually appealing, easy to read, and clearly show key details at a glance.
+Utilize tables, lists, or any other component you find suitable to maximize UI/UX for both accounts and cards.
+Create a new page dedicated to invoice viewing (Faturas), with filtering by period/status.
+The system must include a full credit card analysis screen, displaying:
+Open invoices
+Closed invoices
+Paid invoices
+Upcoming/future invoices
+Each invoice should show payment slip, due date, status, summary of expenses (by category or day), and downloadable/exportable PDF.
+Implement features for setting goals and budgeting:
+Allow users to define a general budget, as well as budgets per category.
+Include support for identifying and managing fixed and variable expenses.
+Provide concise feedback if a budget is exceeded (ex: alerts or color changes).
+Apply global REGEX formatting/validation to all fields in the system (currency, text, percentages, dates, etc.), ensuring all inputs follow proper PT-BR patterns.
+Remove the "+ New Transaction" button from the main dashboard's header — this function should now be accessed only inside specific relevant sections.
+Throughout the system, prioritize clarity, a clean interface, and the best user experience for Brazilian users. All page titles, labels, and messages must remain in PT-BR.
